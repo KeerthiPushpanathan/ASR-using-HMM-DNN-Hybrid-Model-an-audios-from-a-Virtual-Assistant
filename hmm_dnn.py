@@ -1,6 +1,9 @@
 from hmmlearn.base import _BaseHMM, ConvergenceMonitor
 from hmmlearn.utils import iter_from_X_lengths, normalize
 import numpy as np
+import tensorflow
+import pytorch
+import keras 
 from sklearn.utils import check_array
 from sklearn.utils.validation import check_is_fitted
 
